@@ -14,8 +14,7 @@ public enum StateOfPatient {
 
     public static StateOfPatient getStateFrom(String code) {
         return Arrays.stream(StateOfPatient.values())
-                .filter(x -> x.getCode()
-                        .equals(code))
+                .filter(x -> x.getCode().equals(code))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("No state available"));
     }

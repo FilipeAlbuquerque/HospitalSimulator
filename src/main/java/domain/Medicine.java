@@ -8,20 +8,19 @@ public enum Medicine {
 
     private String medicine;
 
-    Medicine(String medicine) {
+        Medicine(String medicine) {
         this.medicine = medicine;
     }
 
     public static Medicine getMedicineWith(String medicine) {
+
         return Arrays.stream(Medicine.values())
-                .filter(x -> x.getMedicine()
-                        .equals(medicine))
-                        .findFirst()
-                        .orElseThrow(() -> new RuntimeException("Invalid medicine"));
+                .filter(x -> x.getMedicine().equals(medicine))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Invalid medicine"));
     }
 
     public String getMedicine() {
         return medicine;
     }
-
 }

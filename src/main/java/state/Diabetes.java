@@ -4,7 +4,6 @@ import domain.DrugsEffects;
 import domain.Patient;
 import domain.StateOfPatient;
 
-import java.util.Arrays;
 import java.util.List;
 
 import static domain.DrugsEffects.KILL;
