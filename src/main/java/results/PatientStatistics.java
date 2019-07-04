@@ -36,4 +36,5 @@ public class PatientStatistics {
 
         return (int) count;
     }
+
 }

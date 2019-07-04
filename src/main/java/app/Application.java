@@ -26,4 +26,5 @@ public class Application {
     private static String getMedicinesInput(String[] args) {
         return (args.length > 1) ? args[1] : "";
     }
+
 }

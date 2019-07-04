@@ -31,4 +31,5 @@ public class PatientParser {
                 .map(StateOfPatient::getStateFrom)
                 .collect(Collectors.toList());
     }
+
 }

@@ -19,6 +19,7 @@ public class Tuberculosis implements Patient {
 
     @Override
     public Patient reactTo(List<DrugsEffects> drugs) {
+
         if (drugs.contains(KILL)) {
             return new Dead();
         } else if (drugs.contains(CURES_TUBERCULOSIS)) {

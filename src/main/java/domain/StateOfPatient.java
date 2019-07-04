@@ -23,4 +23,5 @@ public enum StateOfPatient {
     public String getCode() {
         return code;
     }
+
 }

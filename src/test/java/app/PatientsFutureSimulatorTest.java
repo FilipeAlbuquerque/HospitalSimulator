@@ -59,4 +59,5 @@ public class PatientsFutureSimulatorTest {
         assertEquals(patientsResult.get(4).getState(), FEVER);
         
       }
+
 }

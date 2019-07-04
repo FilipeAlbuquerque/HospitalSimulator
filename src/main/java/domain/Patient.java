@@ -7,4 +7,5 @@ public interface Patient {
     StateOfPatient getState();
 
     Patient reactTo(List<DrugsEffects> rule);
+
 }

@@ -36,4 +36,5 @@ public class PatientStatisticsTest {
 
         assertEquals(result, output);
     }
+
 }

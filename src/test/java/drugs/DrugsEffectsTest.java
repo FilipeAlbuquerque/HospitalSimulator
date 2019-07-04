@@ -19,7 +19,6 @@ public class DrugsEffectsTest {
     @Test
     public void insulineMixedWithAntibiotic() {
 
-
         List<Medicine> medicines = asList(ANTIBIOTIC, INSULIN);
 
         List<DrugsEffects> drugs = new DrugsEffectsStream(medicines).get();

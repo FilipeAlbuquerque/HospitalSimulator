@@ -4,6 +4,7 @@ import domain.DrugsEffects;
 import domain.Patient;
 import domain.StateOfPatient;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static domain.DrugsEffects.KILL;
@@ -19,11 +20,13 @@ public class Diabetes implements Patient {
 
     @Override
     public Patient reactTo(List<DrugsEffects> drugs) {
+
         if (drugs.contains(KILL)) {
             return new Dead();
         } else if (drugs.contains(PREVENT_DIABETIC_FROM_DYING)) {
             return new Diabetes();
         }
+
         return new Dead();
     }
 

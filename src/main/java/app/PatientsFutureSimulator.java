@@ -22,5 +22,6 @@ public class PatientsFutureSimulator {
                 .map(patients -> patients.reactTo(drugs))
                 .collect(Collectors.toList());
     }
+
 }
 

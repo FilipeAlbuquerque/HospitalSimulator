@@ -23,4 +23,5 @@ public enum Medicine {
     public String getMedicine() {
         return medicine;
     }
+
 }

@@ -11,6 +11,7 @@ import static java.util.Arrays.stream;
 public class MedicineParser {
 
     public List<Medicine> fromInput(String medicineInput) {
+
         if (medicineInput.equals("")) {
             return Collections.emptyList();
         }

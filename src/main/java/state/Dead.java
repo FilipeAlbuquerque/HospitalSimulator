@@ -23,5 +23,4 @@ public class Dead implements Patient {
 
         return new Dead();
     }
-
 }

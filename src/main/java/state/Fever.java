@@ -10,8 +10,6 @@ import static domain.DrugsEffects.CURES_FEVER;
 import static domain.DrugsEffects.KILL;
 import static domain.StateOfPatient.FEVER;
 
-;
-
 public class Fever implements Patient {
 
     @Override

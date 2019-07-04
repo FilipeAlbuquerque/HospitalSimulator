@@ -67,4 +67,5 @@ public class DrugsEffectsStream {
     private boolean oneInChances() {
         return new Random().nextInt(CHANCES) == 1;
     }
+
 }
